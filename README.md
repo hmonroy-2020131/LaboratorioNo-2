@@ -1,1 +1,1 @@
-Conexion con MongoDB termninada.
+Modelo de usuarios y cursos terminados con algunas validaciones
