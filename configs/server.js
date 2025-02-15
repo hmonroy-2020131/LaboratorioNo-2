@@ -15,6 +15,10 @@ const middlewares = (app) => {
     app.use(morgan('dev'));
     app.use(limiter);
 }
+
+const routes =(app) => {
+
+}
  
  
 const conectarDB = async () => {
