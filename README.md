@@ -1,1 +1,1 @@
-Conexion con MongoDB termninada.
+Login/register terminado
