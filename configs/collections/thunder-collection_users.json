@@ -1,0 +1,74 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "users",
+    "collectionId": "667d8a25-cea2-42b5-a1ca-b77e6467aebf",
+    "dateExported": "2025-02-17T01:47:57.073Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "aedf93d9-3e55-4821-9c1f-b005447da7d2",
+            "colId": "667d8a25-cea2-42b5-a1ca-b77e6467aebf",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3001/Laboratorio2/v1/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-16T01:55:31.666Z",
+            "modified": "2025-02-16T01:58:22.351Z",
+            "headers": []
+        },
+        {
+            "_id": "78b06314-4e7f-418f-8ebb-d42b7ff45e4e",
+            "colId": "667d8a25-cea2-42b5-a1ca-b77e6467aebf",
+            "containerId": "",
+            "name": "eliminar usuario",
+            "url": "http://localhost:3001/Laboratorio2/v1/users/67b139aa64b9d912a079d982",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2025-02-16T23:26:43.075Z",
+            "modified": "2025-02-17T01:36:05.079Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IxMzllNTY0YjlkOTEyYTA3OWQ5OGEiLCJpYXQiOjE3Mzk3NTYxNTAsImV4cCI6MTczOTc1OTc1MH0.Ap3dRICZ78UAs7kRwvUzlaRe7pf16AFjRNkgJ_KRh_U"
+                }
+            ]
+        },
+        {
+            "_id": "bbaee17a-cc01-43d0-ad32-e0bf69acbc83",
+            "colId": "667d8a25-cea2-42b5-a1ca-b77e6467aebf",
+            "containerId": "",
+            "name": "listar por id",
+            "url": "http://localhost:3001/Laboratorio2/v1/users/67b115850a0e3016be075915",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-17T00:17:38.482Z",
+            "modified": "2025-02-17T01:19:07.845Z",
+            "headers": []
+        },
+        {
+            "_id": "edda15d0-419b-4dd7-a2db-1eca0ca6ceb7",
+            "colId": "667d8a25-cea2-42b5-a1ca-b77e6467aebf",
+            "containerId": "",
+            "name": "editar",
+            "url": "http://localhost:3001/Laboratorio2/v1/users/67b139e564b9d912a079d98a",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-02-17T00:12:32.894Z",
+            "modified": "2025-02-17T01:31:30.665Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IxMzllNTY0YjlkOTEyYTA3OWQ5OGEiLCJpYXQiOjE3Mzk3NTU1NTIsImV4cCI6MTczOTc1OTE1Mn0.ZjFT5KPJsFqzArMaCWBpkwN10VJcwMbzj81bYiZ__Q8"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Eithan\",\n  \"surname\": \"Monroy\",\n  \"username\": \"eithanmv\",\n  \"email\": \"eithanmv@gmail.com\",\n  \"phone\": \"12345678\",\n  \"password\": \"12345678\",\n  \"role\": \"TEACHER_ROLE\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "eA_PeOGOE2QarrJssLI7qCMiXEH0gp8aW-2rjJsylbiHZuYZ_xpkvIlg16mv7MUgVRnSzG0YLImd3pXj6-XkKw"
+}

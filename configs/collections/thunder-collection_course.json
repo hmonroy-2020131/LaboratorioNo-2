@@ -1,0 +1,96 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "course",
+    "collectionId": "c0829bea-a2bd-4793-ad9f-135ff56a8b23",
+    "dateExported": "2025-02-17T01:47:36.928Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "49e15151-b429-40fc-a5df-3310737ed8c9",
+            "colId": "c0829bea-a2bd-4793-ad9f-135ff56a8b23",
+            "containerId": "",
+            "name": "agregar",
+            "url": "http://localhost:3001/Laboratorio2/v1/course/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-16T01:06:43.902Z",
+            "modified": "2025-02-17T01:12:57.672Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IxMzllNTY0YjlkOTEyYTA3OWQ5OGEiLCJpYXQiOjE3Mzk3NTIwNDcsImV4cCI6MTczOTc1NTY0N30.R_Bk4XURJunsLSA_8dPucnlSsgTsiBO_K2JgM-mE7xg"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Curso de Matematica\",\n  \"description\": \"Este curso cubre los conceptos básicos de álgebra y cálculo.\",\n  \"teacher\": \"67b139e564b9d912a079d98a\", \n  \"students\": [\"67b115850a0e3016be075915\", \"67b139aa64b9d912a079d982\", \"67b139c064b9d912a079d986\", \"67b282d1a21db55b1ad0bf2c\" ]  \n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "801005d7-2345-40b8-a6de-02cca69f4cad",
+            "colId": "c0829bea-a2bd-4793-ad9f-135ff56a8b23",
+            "containerId": "",
+            "name": "eliminar curso",
+            "url": "http://localhost:3001/Laboratorio2/v1/course/67b28cf9207bed101f0b1c0f",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2025-02-16T23:30:13.433Z",
+            "modified": "2025-02-17T01:13:08.326Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IxMzllNTY0YjlkOTEyYTA3OWQ5OGEiLCJpYXQiOjE3Mzk3NTIyNTIsImV4cCI6MTczOTc1NTg1Mn0.RbVhMqOguD9Zr_-X5SfFqG0Qly5XDRT3mVkt85FaDDY"
+                }
+            ]
+        },
+        {
+            "_id": "41f93d3e-eaf6-4f2f-9f98-f13af9f4ca8a",
+            "colId": "c0829bea-a2bd-4793-ad9f-135ff56a8b23",
+            "containerId": "",
+            "name": "editar",
+            "url": "http://localhost:3001/Laboratorio2/v1/course/67b27f94ec0a530e86ce6022",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2025-02-17T00:15:06.498Z",
+            "modified": "2025-02-17T00:15:58.179Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IxMzllNTY0YjlkOTEyYTA3OWQ5OGEiLCJpYXQiOjE3Mzk3NDgzNDksImV4cCI6MTczOTc1MTk0OX0.3wfaTVMqz9SHp1niNj7aRTGOW2QnKHzeDgGzLcNT34w"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Curso de Informatica\",\n  \"description\": \"Este es de informatica\",\n  \"teacher\": \"67b139e564b9d912a079d98a\", \n  \"students\": [\"67b115850a0e3016be075915\", \"67b139aa64b9d912a079d982\", \"67b139c064b9d912a079d986\"]  \n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "25c2e069-4e51-4f50-886a-4f529ae27bd0",
+            "colId": "c0829bea-a2bd-4793-ad9f-135ff56a8b23",
+            "containerId": "",
+            "name": "listar courses",
+            "url": "http://localhost:3001/Laboratorio2/v1/course/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-16T23:30:49.674Z",
+            "modified": "2025-02-17T01:15:15.736Z",
+            "headers": []
+        },
+        {
+            "_id": "5e1208e3-ee3f-4f9e-923e-a40f3b61abca",
+            "colId": "c0829bea-a2bd-4793-ad9f-135ff56a8b23",
+            "containerId": "",
+            "name": "listar courses por id",
+            "url": "http://localhost:3001/Laboratorio2/v1/course/67b28e92e8ad315a8295ffab",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-17T00:17:02.233Z",
+            "modified": "2025-02-17T01:19:26.897Z",
+            "headers": []
+        }
+    ],
+    "ref": "vNfxekZr6l8DYIVZaMslwFJyFYsK69puadZUW4RPk1VktZGsMB9pfYr52wrwFpJYs6-ExcOmPT88B2uWwR7dlw"
+}

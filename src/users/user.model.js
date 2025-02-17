@@ -50,7 +50,7 @@ const UserSchema = new Schema(
                 },
                 message: "Students can only be assigned to a maximum of 3 courses"
             }
-        }],
+        }],        
         status: {
             type: Boolean,
             default: true,
