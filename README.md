@@ -1,1 +1,1 @@
-Logica de el programa casi terminada
+Conexion con MongoDB termninada.

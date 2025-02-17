@@ -1,0 +1,33 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "asignar",
+    "collectionId": "9624111a-0b00-4c9e-99c2-6d98c713d4fe",
+    "dateExported": "2025-02-17T15:19:05.503Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "42c81125-0daf-40bb-9fca-0eedd38031b3",
+            "colId": "9624111a-0b00-4c9e-99c2-6d98c713d4fe",
+            "containerId": "",
+            "name": "Asignar curso",
+            "url": "http://localhost:3001/Laboratorio2/v1/users/67b290c1a27048dbdb512dd7/courses",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-17T14:11:58.384Z",
+            "modified": "2025-02-17T15:15:23.764Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IyOTBjMWEyNzA0OGRiZGI1MTJkZDciLCJpYXQiOjE3Mzk4MDQ4MTcsImV4cCI6MTczOTgwODQxN30.WSZYFkD2s7Gnx5RBEJ0S7gass18rw5l3xOjD_RcmsZY"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"courseId\": \"67b34f2799059773251efe79\"\r\n}\r\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "z-XVGgImBk4reD_wppiETOy8Clo2F3uq6mgUh0LQtcg6D6R9kvtZIM561it8TT5hbDaCvNoOGRYDC2cwz7hpFg"
+}

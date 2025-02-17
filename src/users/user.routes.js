@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { check } from "express-validator";
-import { getUsers, getUserById, updateUser, deleteUser, updateUserPassword } from "./user.controller.js";
+import { getUsers, getUserById, updateUser, deleteUser, updateUserPassword , asignarCursoAEstudiante} from "./user.controller.js";
 import { existeUsuarioById } from "../helpers/db-validator.js";
 import { validarCampos } from "../middlewares/validar-campos.js";
 import { validarJWT } from "../middlewares/validar-jwt.js";
@@ -36,7 +36,7 @@ router.delete(
     "/:id",
     [
         validarJWT,
-        tieneRole("ADMIN_ROLE", "TEACHER_ROLE"),
+        tieneRole("TEACHER_ROLE"),
         check("id", "No es un ID válido").isMongoId(),
         check("id").custom(existeUsuarioById),
         validarCampos
@@ -54,5 +54,19 @@ router.put(
     ],
     updateUserPassword
 );
+
+router.post(
+    "/:id/courses", 
+    [
+        validarJWT, 
+        tieneRole("STUDENT_ROLE", "ADMIN_ROLE"),
+        check("id", "No es un ID válido").isMongoId(), 
+        check("id").custom(existeUsuarioById), 
+        check("courseId", "El curso es obligatorio").notEmpty(), 
+        validarCampos
+    ],
+    asignarCursoAEstudiante 
+);
+
 
 export default router;

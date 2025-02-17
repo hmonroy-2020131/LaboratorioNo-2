@@ -44,12 +44,6 @@ const UserSchema = new Schema(
         courses: [{
             type: Schema.Types.ObjectId,
             ref: "Course",
-            validate: {
-                validator: function (v) {
-                    return this.role === "STUDENT_ROLE" ? v.length <= 3 : true;
-                },
-                message: "Students can only be assigned to a maximum of 3 courses"
-            }
         }],        
         status: {
             type: Boolean,
