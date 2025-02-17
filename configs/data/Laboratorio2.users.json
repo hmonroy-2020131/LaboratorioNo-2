@@ -12,7 +12,13 @@
   "role": "STUDENT_ROLE",
   "courses": [
     {
-      "$oid": "67b28e92e8ad315a8295ffab"
+      "$oid": "67b34ed399059773251efe6f"
+    },
+    {
+      "$oid": "67b34f0699059773251efe74"
+    },
+    {
+      "$oid": "67b34f2799059773251efe79"
     }
   ],
   "status": true,
@@ -20,7 +26,7 @@
     "$date": "2025-02-16T01:04:42.560Z"
   },
   "updatedAt": {
-    "$date": "2025-02-17T01:42:12.727Z"
+    "$date": "2025-02-17T15:00:55.151Z"
   }
 },
 {
@@ -37,7 +43,13 @@
   "role": "STUDENT_ROLE",
   "courses": [
     {
-      "$oid": "67b28e92e8ad315a8295ffab"
+      "$oid": "67b34ed399059773251efe6f"
+    },
+    {
+      "$oid": "67b34f0699059773251efe74"
+    },
+    {
+      "$oid": "67b34f2799059773251efe79"
     }
   ],
   "status": true,
@@ -45,7 +57,7 @@
     "$date": "2025-02-16T01:05:04.765Z"
   },
   "updatedAt": {
-    "$date": "2025-02-17T01:19:14.461Z"
+    "$date": "2025-02-17T15:00:55.151Z"
   }
 },
 {
@@ -83,7 +95,13 @@
   "role": "STUDENT_ROLE",
   "courses": [
     {
-      "$oid": "67b28e92e8ad315a8295ffab"
+      "$oid": "67b34ed399059773251efe6f"
+    },
+    {
+      "$oid": "67b34f0699059773251efe74"
+    },
+    {
+      "$oid": "67b34f2799059773251efe79"
     }
   ],
   "status": true,
@@ -91,7 +109,7 @@
     "$date": "2025-02-17T00:29:05.586Z"
   },
   "updatedAt": {
-    "$date": "2025-02-17T01:19:14.461Z"
+    "$date": "2025-02-17T15:00:55.151Z"
   }
 },
 {
@@ -127,12 +145,64 @@
   "profilePicture": null,
   "phone": "12345678",
   "role": "STUDENT_ROLE",
-  "courses": [],
+  "courses": [
+    {
+      "$oid": "67b34ed399059773251efe6f"
+    },
+    {
+      "$oid": "67b34f0699059773251efe74"
+    },
+    {
+      "$oid": "67b34f9299059773251efe7e"
+    }
+  ],
   "status": true,
   "createdAt": {
     "$date": "2025-02-17T01:28:33.476Z"
   },
   "updatedAt": {
-    "$date": "2025-02-17T01:32:07.816Z"
+    "$date": "2025-02-17T15:12:53.855Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b34e2613aa541e079293fd"
+  },
+  "name": "Waldemar",
+  "surname": "Caxaj",
+  "username": "wcajax",
+  "email": "wcajax@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$Vcz+qTG46NxP6EMtjBY/1Q$61r+Hw5eJlHAh9nEZMlotHStz/ulrmmFxAJKKMwhYVI",
+  "profilePicture": null,
+  "phone": "12345678",
+  "role": "TEACHER_ROLE",
+  "courses": [],
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-17T14:56:38.306Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T14:56:38.306Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b34e5113aa541e07929401"
+  },
+  "name": "Ceferino",
+  "surname": "Rodriguez",
+  "username": "crodriguez",
+  "email": "crodriguez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$QIH5BooGrS9oE3G02GJ5SQ$VEf35UA9LK1N+D9OMM8BFM+KDs/uHgQwDpIzDffNayk",
+  "profilePicture": null,
+  "phone": "12345678",
+  "role": "TEACHER_ROLE",
+  "courses": [],
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-17T14:57:21.899Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T14:57:21.899Z"
   }
 }]

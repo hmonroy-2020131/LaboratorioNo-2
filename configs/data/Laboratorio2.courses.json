@@ -1,16 +1,13 @@
 [{
   "_id": {
-    "$oid": "67b28e92e8ad315a8295ffab"
+    "$oid": "67b34ed399059773251efe6f"
   },
-  "title": "Curso de Matematica",
+  "title": "Curso de Matematicas",
   "description": "Este curso cubre los conceptos básicos de álgebra y cálculo.",
   "teacher": {
-    "$oid": "67b139e564b9d912a079d98a"
+    "$oid": "67b34e5113aa541e07929401"
   },
   "students": [
-    {
-      "$oid": "67b115850a0e3016be075915"
-    },
     {
       "$oid": "67b139aa64b9d912a079d982"
     },
@@ -22,9 +19,80 @@
     }
   ],
   "createdAt": {
-    "$date": "2025-02-17T01:19:14.452Z"
+    "$date": "2025-02-17T14:59:31.999Z"
   },
   "updatedAt": {
-    "$date": "2025-02-17T01:19:14.452Z"
+    "$date": "2025-02-17T14:59:31.999Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b34f0699059773251efe74"
+  },
+  "title": "Curso de Informatica",
+  "description": "Un curso de informática enseña el uso básico de computadoras, software, programación, redes y seguridad digital, proporcionando habilidades esenciales para el entorno digital.",
+  "teacher": {
+    "$oid": "67b2866ba21db55b1ad0bf4a"
+  },
+  "students": [
+    {
+      "$oid": "67b139aa64b9d912a079d982"
+    },
+    {
+      "$oid": "67b139c064b9d912a079d986"
+    },
+    {
+      "$oid": "67b282d1a21db55b1ad0bf2c"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-17T15:00:22.379Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T15:00:22.379Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b34f2799059773251efe79"
+  },
+  "title": "Curso de Seminario",
+  "description": "Un seminario es un encuentro educativo donde se discuten temas específicos, se comparten conocimientos y se fomenta el debate entre los participantes.",
+  "teacher": {
+    "$oid": "67b34e2613aa541e079293fd"
+  },
+  "students": [
+    {
+      "$oid": "67b139aa64b9d912a079d982"
+    },
+    {
+      "$oid": "67b139c064b9d912a079d986"
+    },
+    {
+      "$oid": "67b282d1a21db55b1ad0bf2c"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-17T15:00:55.149Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T15:00:55.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b34f9299059773251efe7e"
+  },
+  "title": "Curso de Religion",
+  "description": "Un curso de religión explora las creencias, prácticas y valores de diversas tradiciones religiosas, analizando sus textos sagrados, historia, ética y su impacto en la sociedad.",
+  "teacher": {
+    "$oid": "67b139e564b9d912a079d98a"
+  },
+  "students": [],
+  "createdAt": {
+    "$date": "2025-02-17T15:02:42.953Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T15:02:42.953Z"
   }
 }]
